@@ -24,9 +24,15 @@ header button{
     border-radius: 5px;
 }
 
+main{
+    height: calc(100vh - 100px);
+}
+
 .gallery{
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
+    overflow: auto;
 }
 
 .utente{
@@ -35,6 +41,7 @@ header button{
     border: 3px solid black;
     position: relative;
 }
+
 
 .utente img{
     width: 100%;
@@ -49,3 +56,59 @@ header button{
     bottom: 0;
     left: 0;
 }
+
+footer{
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mic-video{
+    display: flex;
+    justify-content: flex-start;    
+}
+
+.item{
+    text-align: center;
+}
+
+.item-img{
+    font-size: 30px;
+}
+
+.mb-20{
+    margin-bottom: 10px;
+}
+
+.arrow{
+    margin: 20px;
+}
+
+.central{
+    display: flex;
+    justify-content: center;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.end-meeting{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.end-meeting-text{
+    background-color: grey;
+    height: 100%;
+    padding: 15px 30px;
+}
+
+.end-meeting span{
+    color: red;
+    font-size: 20px;
+    
+}
+
