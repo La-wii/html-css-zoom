@@ -94,6 +94,10 @@ footer{
     margin-right: 20px;
 }
 
+.green{
+    color: chartreuse;
+}
+
 .end-meeting{
     display: flex;
     justify-content: flex-end;
